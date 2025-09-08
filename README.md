@@ -27,13 +27,13 @@ Each pattern is mapped to compliance frameworks including:
 
 | Proof | Screenshot |
 |-------|------------|
-| ✅ CloudTrail created (multi-region enabled) | ![CloudTrail Multi-Region](./screenshots/screenshot-cloudtrail-multiregion.png) |
-| ✅ KMS CMK for CloudTrail (rotation enabled) | ![CloudTrail KMS](./screenshots/screenshot-cloudtrail-kms-cmk.png) |
-| ✅ Log file validation enabled | ![CloudTrail Log Validation](./screenshots/screenshot-cloudtrail-logfilevalidation.png) |
-| ✅ Global service events included | ![CloudTrail Global Events](./screenshots/screenshot-cloudtrail-globalevents.png) |
-| ✅ Trail delivering logs to S3 bucket | ![CloudTrail S3 Delivery](./screenshots/screenshot-cloudtrail-s3delivery.png) |
-| ❌ (Negative test) KMS missing → OPA violation | ![OPA Fail KMS](./screenshots/screenshot-cloudtrail-opa-fail-kms.png) |
-| ✅ (Positive test) All checks passed → OPA result | ![OPA Pass](./screenshots/screenshot-cloudtrail-opa-pass.png) |
+| ✅ CloudTrail created (multi-region enabled) | ![CloudTrail Multi-Region](./step1-cloudtrail/screenshots/screenshot-cloudtrail-multiregion.png) |
+| ✅ KMS CMK for CloudTrail (rotation enabled) | ![CloudTrail KMS](./step1-cloudtrail/screenshots/screenshot-cloudtrail-kms-cmk.png) |
+| ✅ Log file validation enabled | ![CloudTrail Log Validation](./step1-cloudtrail/screenshots/screenshot-cloudtrail-logfilevalidation.png) |
+| ✅ Global service events included | ![CloudTrail Global Events](./step1-cloudtrail/screenshots/screenshot-cloudtrail-globalevents.png) |
+| ✅ Trail delivering logs to S3 bucket | ![CloudTrail S3 Delivery](./step1-cloudtrail/screenshots/screenshot-cloudtrail-s3delivery.png) |
+| ❌ (Negative test) KMS missing → OPA violation | ![OPA Fail KMS](./step1-cloudtrail/screenshots/screenshot-cloudtrail-opa-fail-kms.png) |
+| ✅ (Positive test) All checks passed → OPA result | ![OPA Pass](./step1-cloudtrail/screenshots/screenshot-cloudtrail-opa-pass.png) |
 
 ---
 

@@ -153,8 +153,6 @@ data "aws_iam_policy_document" "kms_cloudtrail" {
       variable = "aws:SourceAccount"
       values   = [data.aws_caller_identity.current.account_id]
     }
-
-    # Region wildcard avoids circular dep; still pinned to this trail name
     condition {
       test     = "ArnLike"
       variable = "aws:SourceArn"

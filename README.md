@@ -7,14 +7,14 @@
 ![AWS](https://img.shields.io/badge/AWS-Guardrails-orange?logo=amazonaws)
 ![ISO27001](https://img.shields.io/badge/ISO-27001%3A2022-critical?logo=security)
 
-This repo demonstrates how to implement **preventive AWS security guardrails** using **Terraform and OPA/Rego**.
-Guardrails enforce best practices like multi-region CloudTrail with KMS encryption, root account restrictions, mandatory tagging, and IAM controls.
+This repo demonstrates how to implement **preventive AWS security guardrails** using **Terraform and OPA/Rego**.Guardrails enforce best practices like multi-region CloudTrail with KMS encryption, root account restrictions, mandatory tagging, and IAM controls.
 
 Each pattern is mapped to compliance frameworks including:
--**ISO/IEC 27001:2022 (Annex A controls)**
--**CIS AWS Foundations Benchmark**
--**Saudi Arabia NCA ECC (Essential Cybersecurity Controls)**
--**UAE NESA IAS (Information Assurance Standards)**
+
+- **ISO/IEC 27001:2022 (Annex A controls)**
+- **CIS AWS Foundations Benchmark**
+- **Saudi Arabia NCA ECC (Essential Cybersecurity Controls)**
+- **UAE NESA IAS (Information Assurance Standards)**
 
 # Step 1 — CloudTrail Guardrail (Multi-Region, KMS-Encrypted)
 

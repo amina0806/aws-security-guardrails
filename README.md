@@ -54,6 +54,6 @@ Each pattern is mapped to compliance frameworks including:
 ---
 
 ## Notes
-- **Terraform**: Trail configured with `is_multi_region_trail = true`, `kms_key_id`, and `enable_log_file_validation = true`.
-- **OPA Policy**: Denies plans where CloudTrail is not multi-region, lacks KMS encryption, or has log file validation disabled.
-- **Evidence**: See screenshots + OPA evaluation results in this folder.
+- **Terraform**: Trail configured with `is_multi_region_trail = true`, `kms_key_id`, and `enable_log_file_validation = true`
+- **OPA Policy**: Denies plans where CloudTrail is not multi-region, lacks KMS encryption, or has log file validation disabled
+- **Evidence**: See screenshots + OPA evaluation results in this folder

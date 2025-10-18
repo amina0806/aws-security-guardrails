@@ -57,3 +57,9 @@ Each pattern is mapped to compliance frameworks including:
 - **Terraform**: Trail configured with `is_multi_region_trail = true`, `kms_key_id`, and `enable_log_file_validation = true`
 - **OPA Policy**: Denies plans where CloudTrail is not multi-region, lacks KMS encryption, or has log file validation disabled
 - **Evidence**: See screenshots + OPA evaluation results in this folder
+
+---
+### License
+
+This project is released under the **MIT License** — you’re free to use, adapt, and share the code for educational or portfolio purposes.
+Please include attribution to **Jiyu(Amina)An (GlobalComplianceCode)** if you reuse or reference any part of it.
